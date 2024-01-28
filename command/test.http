@@ -1,0 +1,9 @@
+### Test
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+
+{
+  "email": "String@Email",
+  "password": "StringPass",
+  "name": "StringName"
+}
